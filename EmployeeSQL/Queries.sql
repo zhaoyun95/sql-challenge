@@ -54,3 +54,7 @@ FROM employee
 GROUP BY last_name
 ORDER BY count_last_name DESC
 ;
+
+
+-- Epilogue: employee id 499942, April Foolsday!!!
+select * from employee where employee_id = 499942;
